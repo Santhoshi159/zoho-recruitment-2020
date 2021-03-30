@@ -1,0 +1,37 @@
+Data Model 
+
+Declare the name, gender, father name and mother name. 
+
+If father name and father name ,mother name and mother name are equal then we can identify their children i.e. brothers and sisters by gender. 
+
+If the name is equal to mother name 
+
+Then we can find the children gender and name by this we can select the possibility 
+
+If the name is equal to father name 
+
+Then we can find the children gender and name by this we can select the possibility  
+
+Code: 
+
+ Char name ,gender, father_name , mother_name , son, daug; 
+
+Int I,j; 
+
+If(father_name[I]==father_name[j] && mother_name[I]==mother_name[j] ) 
+
+{ 
+
+If(gender==male) 
+
+Name=son; 
+
+Else 
+
+Name=daug; 
+
+} 
+
+If(mother_name[I]==name[j]) 
+
+ 
